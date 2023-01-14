@@ -1,0 +1,8 @@
+/* google theke font copy kore anlam */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400;1,600&family=Poppins:wght@500&display=swap');
+
+/* common styles or utilities */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
