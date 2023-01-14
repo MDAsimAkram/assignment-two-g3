@@ -186,9 +186,15 @@ border: 1px solid #FF900E;
 border-radius: 8px;
 width: 20%;
 padding: 20px;
-align-items: center;
+align-items: center ;
+text-align: center;
 
 }
+.img:hover{
+    background-color: aqua;
+}
+
+ 
 .img h2{
     font-family: 'Work Sans';
 font-style: normal;
@@ -216,4 +222,20 @@ color: #727272;
 }
 .img img{
     width: 45px;
+    
+}
+.img img:hover{
+    animation: geometric-form-animation 1s alternate infinite;
+}
+@keyframes geometric-form-animation {
+  0% {
+    transform: rotate(0deg);
+    
+  }
+  50% {
+    transform: rotate(180deg); 
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
