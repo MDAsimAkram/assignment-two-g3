@@ -4,7 +4,7 @@
 /* common styles or utilities */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #F3F1FF;
+    
 }
 /* hrader part 1 */
 .header-architect{
@@ -239,3 +239,36 @@ color: #727272;
     transform: rotate(360deg);
   }
 }
+ /* <!-- .....part 4... --> */
+ .sponser-container{
+    width: 100vw;
+    text-align: center;
+ }
+ .sponser-container h2{
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+ }
+ .sponser-container p{
+    color: #727272;
+ }
+ .sponser-img{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+ }
+ /* -----footer------ */
+ .part-end{
+   text-align: center;
+   
+   width: 800px;
+height: 50px;
+background: #FFF4E7;
+border-radius: 8px;
+position: absolute;
+left: 240px;
+margin-top: 100px;
+
+ }
