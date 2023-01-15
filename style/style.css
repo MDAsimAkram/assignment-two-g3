@@ -288,7 +288,7 @@ color: #131313;
     background: #FFFFFF;
 box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
 border-radius: 8px;
-border: 5px solid rgb(164, 212, 196);
+border: 5px solid rgb(207, 238, 71);
 }
 /* ..box er upor mouse niye gele jadu hobe */
 .team:hover{
@@ -325,5 +325,58 @@ position: absolute;
 left: 240px;
 margin-top: 100px;
 
+
  }
  /* ....akhn amra eitak responsive website banabo..... */
+
+ /* ..for mobile device....... */
+
+@media only screen and (max-width:688px) {
+   .header-nav {
+    flex-direction: column;
+    align-items: flex-start;
+   }
+   nav ul{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    padding-left: 10px;
+   }
+   nav li{
+    margin-left: 0%;
+   }
+   
+    .header-head{
+        padding: 5px;
+    }
+   .head-container, .container-img, .container-title{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   /* 2222 */
+   .container, .container-features{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   }
+   .sponser-container, .team-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   }
+   .sponser-title, .sponser-img{
+  
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   .container-img, .sponser-img, .team{
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+   }
+   .team-container{
+    padding: 0;
+   }
+}
+.hide{
+    display: none;
+}
