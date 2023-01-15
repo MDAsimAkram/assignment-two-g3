@@ -140,6 +140,7 @@ border-radius: 8px;
     position: absolute;
     bottom: 175px;
     left: 0;
+    
 
 }
 /* ........part3.......... */
@@ -259,6 +260,55 @@ color: #131313;
     justify-content: space-between;
     margin: auto;
  }
+ /* <!-- ------part 5--------Our Team Member --> */
+.team-member{
+    width: 100vw;
+    border-radius: 5px;
+    gap: 10px;
+    border-bottom: 100px;
+}
+.team-container{
+    display: flex;
+    padding: 50px;
+    
+    gap: 30px;
+    width: 800px;
+    height: 380px;
+    justify-content: space-between;
+    margin: auto;
+}
+.team-member h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 53px;
+}
+.team{
+    width: 100vw;
+    text-align: center;
+    background: #FFFFFF;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+border: 5px solid rgb(164, 212, 196);
+}
+.team-member img{
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+}
+.team-member h3{
+    font-weight: 600;
+font-size: 30px;
+color: #131313;
+ 
+}
+.team-member p{
+    color: #727272;
+}
+
+
  /* -----footer------ */
  .part-end{
    text-align: center;
